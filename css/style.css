@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    color: #000;
+    color: #343a48;
 }
 
     a:hover {
@@ -31,7 +31,8 @@ h1 {
 }
 
 h2 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Open sans', cursive;
+    font-size: 34px;
 }
 
 h4 {
@@ -41,7 +42,12 @@ h4 {
 p {
     font-size: 14px;
     line-height: 1.7em;
-    color: #7e7e7e;
+    color: #343a48;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 /* --------------------- 
@@ -159,7 +165,7 @@ HERO SECTION
 }
 
     #hero .container {
-        padding-top: 50px;
+        padding-top: 40px;
     }
 
     #hero h1 {
@@ -356,7 +362,8 @@ footer {
 }
 
 .logo {
-    margin-top: -20px;
+    margin-top: 0;
+    font-family: pacifico, sans-serif;
 }
 
 .santacap {
@@ -602,6 +609,10 @@ SOCIAL ICONS
 
 #overview .fator-1 {
     text-align: right;
+}
+
+#overview .fator-1 h2 {
+    margin-bottom: 20px;
 }
 
 .text-lg {
