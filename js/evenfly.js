@@ -59,9 +59,11 @@ $(document).ready(function () {
         //get the action-url of the form
         var actionurl = e.currentTarget.action;
 
-        var conteudo = $("#contato").serializeArray().map(function (data) {
-            return data.name = data.value
-        });
+        var conteudo = $("#contato").serializeArray().reduce(function (data, item) {
+            data[item.name] = item.value;
+            return data;
+        }, {});
+
         //do your own request an handle the results
         $.ajax({
             url: actionurl,
