@@ -1,6 +1,7 @@
 /* --------------------- 
 BASIC SETTINGS
 --------------------- */
+
 body {
     font-family: 'Raleway', sans-serif;
 }
@@ -9,21 +10,22 @@ a {
     color: #343a48;
 }
 
-    a:hover {
-        color: #ffcc29;
-        text-decoration: none;
-        -webkit-transition: .5s ease-out;
-        -moz-transition: .5s ease-out;
-        -o-transition: .5s ease-out;
-        transition: .5s ease-out;
-    }
+a:hover {
+    color: #ffcc29;
+    text-decoration: none;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
 
-    a:visited {
-        text-decoration: none;
-    }
+a:visited {
+    text-decoration: none;
+}
 
 .highlight {
     color: #ffcd00;
+    font-weight: 600;
 }
 
 h1 {
@@ -48,13 +50,15 @@ p {
 img {
     display: block;
     max-width: 100%;
+    margin: 0 auto;
 }
+
 
 /* --------------------- 
 BUTTONS
 --------------------- */
-.btn:focus,
-input:focus {
+
+.btn:focus, input:focus {
     outline: none !important;
 }
 
@@ -70,11 +74,11 @@ input:focus {
     transition: .5s ease-out;
 }
 
-    .btn:focus {
-        background: #fed962;
-        color: #fff;
-        border: 2px solid #ffcc29;
-    }
+.btn:focus {
+    background: #fed962;
+    color: #fff;
+    border: 2px solid #ffcc29;
+}
 
 .btn-default {
     background: none;
@@ -82,11 +86,11 @@ input:focus {
     border: 2.5px solid #ffcc29;
 }
 
-    .btn-default:hover {
-        background: #fed962;
-        color: #fff;
-        border: 2px solid #ffcc29;
-    }
+.btn-default:hover {
+    background: #fed962;
+    color: #fff;
+    border: 2px solid #ffcc29;
+}
 
 .btn-reverse {
     border: 2.5px solid #fff;
@@ -94,10 +98,10 @@ input:focus {
     border-radius: 0;
 }
 
-    .btn-reverse:hover {
-        color: #fff;
-        border-radius: 45px;
-    }
+.btn-reverse:hover {
+    color: #fff;
+    border-radius: 45px;
+}
 
 .btn-inverse {
     background: #666666;
@@ -106,15 +110,17 @@ input:focus {
     margin-top: 0;
 }
 
-    .btn-inverse:hover {
-        background: #333333;
-        color: #fff;
-        border: 2.5px solid #666666;
-    }
+.btn-inverse:hover {
+    background: #333333;
+    color: #fff;
+    border: 2.5px solid #666666;
+}
+
 
 /* --------------------- 
 INPUT FIELDS
 --------------------- */
+
 input {
     padding: 10px 30px;
     border-radius: 30px;
@@ -127,62 +133,67 @@ input {
     transition: .5s ease-out;
 }
 
-    input:focus {
-        border: 2px solid #ffcc29;
-    }
+input:focus {
+    border: 2px solid #ffcc29;
+}
+
 
 /* --------------------- 
 SECTION HEADINGS
 --------------------- */
+
 .sectionhead {
     padding: 0 150px;
 }
 
-    .sectionhead h2 {
-        padding-bottom: 10px;
-    }
+.sectionhead h2 {
+    padding-bottom: 10px;
+}
 
-    .sectionhead p {
-        font-size: 16px;
-        line-height: 1.6em;
-    }
+.sectionhead p {
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #343a48;
+}
 
-    .sectionhead hr {
-        width: 75px;
-        border-bottom: 4px solid #eeeeee;
-    }
+ hr {
+    width: 75px;
+    border-bottom: 4px solid #eeeeee;
+}
+
 
 /* --------------------- 
 HERO SECTION
 --------------------- */
+
 #hero {
     text-align: center;
-    height: 560px;
+    height: 600px;
     color: #fff;
     background: url(../img/bg.jpg) fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
-    #hero .container {
-        padding-top: 40px;
-    }
+#hero .container {
+    padding-top: 40px;
+}
 
-    #hero h1 {
-        font-weight: 800;
-        text-transform: uppercase;
-        line-height: .9em;
-        text-shadow: 7px 9px 5px rgba(255, 204, 41, 0.294);
-    }
+#hero h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: .9em;
+    text-shadow: 7px 9px 5px rgba(255, 204, 41, 0.294);
+}
 
-    #hero p {
-        text-transform: uppercase;
-    }
+#hero p {
+    text-transform: uppercase;
+}
 
-    #hero p {
-        padding-top: 75px;
-        color: #fff;
-    }
+#hero p {
+    padding-top: 75px;
+    color: #fff;
+}
 
 .bigbell {
     margin-top: -65px;
@@ -199,9 +210,11 @@ HERO SECTION
     margin-top: -390px;
 }
 
+
 /* --------------------- 
 OVERVIEW SECTION
 --------------------- */
+
 #overview {
     text-align: center;
     padding-top: 100px;
@@ -219,9 +232,11 @@ OVERVIEW SECTION
     padding-top: 50px;
 }*/
 
+
 /* --------------------- 
 CALL-TO-ACTION SECTION
 --------------------- */
+
 .calltoaction {
     margin-top: 75px;
     background: url(../img/bg.jpg) fixed;
@@ -229,22 +244,24 @@ CALL-TO-ACTION SECTION
     background-repeat: no-repeat;
 }
 
-    .calltoaction .content {
-        padding: 65px 0;
-    }
+.calltoaction .content {
+    padding: 65px 0;
+}
 
-    .calltoaction p {
-        color: #9f9f9f;
-    }
+.calltoaction p {
+    color: #343a48;
+}
 
-    .calltoaction img {
-        margin-top: -60px;
-        margin-bottom: -15px;
-    }
+.calltoaction img {
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
 
 /* --------------------- 
 PRODUCTS SECTION
 --------------------- */
+
 #products {
     background: url(../img/tag.gif) no-repeat;
     background-position: right 0;
@@ -256,21 +273,21 @@ PRODUCTS SECTION
     ;
 }
 
-    .featureditem img {
-        margin-top: -20px;
-    }
+.featureditem img {
+    margin-top: -20px;
+}
 
 .productimg {
     max-width: 100%;
 }
 
-    .productimg:hover {
-        opacity: .8;
-        -webkit-transition: .5s ease-out;
-        -moz-transition: .5s ease-out;
-        -o-transition: .5s ease-out;
-        transition: .5s ease-out;
-    }
+.productimg:hover {
+    opacity: .8;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
 
 .price {
     font-size: 16px;
@@ -296,13 +313,13 @@ PRODUCTS SECTION
     -ms-transform: rotate(351deg);
 }
 
-    .offertag h4 {
-        margin-bottom: 0px;
-    }
+.offertag h4 {
+    margin-bottom: 0px;
+}
 
-    .offertag p {
-        color: #ffcc29;
-    }
+.offertag p {
+    color: #ffcc29;
+}
 
 .bigtag {
     top: 10px;
@@ -316,6 +333,7 @@ PRODUCTS SECTION
     -moz-transform: rotate(351deg) scale(.8);
     -o-transform: rotate(351deg) scale(.8);
     -ms-transform: rotate(351deg) scale(.8);
+    transform: rotate(351deg) scale(.8);
 }
 
 .fixedoffer {
@@ -334,9 +352,11 @@ PRODUCTS SECTION
     padding-left: 0;
 }
 
+
 /* --------------------- 
 SUBSCRIBE SECTION
 --------------------- */
+
 #subscribe {
     margin-top: 155px;
     background: url(../img/bg.jpg) fixed;
@@ -354,9 +374,15 @@ SUBSCRIBE SECTION
     padding: 65px 0;
 }
 
+#subscribe .container .sectionhead p {
+    color: #fff;
+}
+
+
 /* --------------------- 
 FOOTER SECTION
 --------------------- */
+
 footer {
     padding: 75px 0 30px 0;
 }
@@ -376,9 +402,11 @@ footer hr {
     border-bottom: 4px solid #eeeeee;
 }
 
+
 /* --------------------- 
 OVERLAY PRESET
 --------------------- */
+
 .redoverlay {
     width: 100%;
     height: 100%;
@@ -396,9 +424,11 @@ OVERLAY PRESET
     position: relative;
 }
 
+
 /* --------------------- 
 SOCIAL ICONS
 --------------------- */
+
 .sticky-container {
     position: fixed;
     right: -125px;
@@ -422,25 +452,24 @@ SOCIAL ICONS
     -webkit-filter: grayscale(50%);
 }
 
-    .sticky li:hover {
-        margin-left: -115px;
-        filter: none;
-        -webkit-filter: grayscale(0%);
-    }
+.sticky li:hover {
+    margin-left: -115px;
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
 
-    .sticky li img {
-        float: left;
-        width: 36px;
-        height: 36px;
-        margin-right: 15px;
-        padding: 2px;
-    }
+.sticky li img {
+    float: left;
+    width: 36px;
+    height: 36px;
+    margin-right: 15px;
+    padding: 2px;
+}
 
-    .sticky li p {
-        text-transform: uppercase;
-        line-height: 36px;
-    }
-
+.sticky li p {
+    text-transform: uppercase;
+    line-height: 36px;
+}
 
 
 /* Miscellaneous
@@ -623,7 +652,6 @@ SOCIAL ICONS
     .bigbell.bigbell-lg {
         display: inline;
     }
-
     .bigbell.bigbell-not-lg {
         display: none;
     }
@@ -633,7 +661,6 @@ SOCIAL ICONS
     .bigbell.bigbell-lg {
         display: none;
     }
-
     .bigbell.bigbell-not-lg {
         display: inline;
     }
@@ -657,7 +684,6 @@ SOCIAL ICONS
     -webkit-flex-wrap: wrap;
 }
 
-
 .list-ganhos {
     position: relative;
     display: flex;
@@ -677,6 +703,23 @@ SOCIAL ICONS
     font-weight: 600;
     color: #ffcd00;
     display: inline-block;
+    font-family: Pacifico, sans-serif;
+}
+
+.bonus-5 .col-sm-3 {
+    position: relative;
+}
+
+.bonus-5 .numb-circle {
+    font-size: 30px;
+    line-height: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bonus-5 img {
+    padding: 20px;
 }
 
 .text-list {
@@ -692,4 +735,16 @@ SOCIAL ICONS
     margin-left: -20px;
     border-radius: 10px;
     z-index: -1;
+}
+
+#cta-outros-meios h1 {
+    font-size: 100px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: .9em;
+    text-shadow: 7px 9px 5px rgba(255, 204, 41, 0.294);
+}
+
+#cta-outros-meios .btn {
+    font-size: 25px;
 }
