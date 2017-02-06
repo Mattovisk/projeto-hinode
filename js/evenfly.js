@@ -71,8 +71,8 @@ $(document).ready(function () {
             dataType: 'json',
             data: JSON.stringify(conteudo),
             success: function (data) {
-                console.log('teste');
-                // ... do something with the data...
+                $('#contato').css('display', 'none');
+                $('#resultado').css('display', 'block');
             }
         });
 
